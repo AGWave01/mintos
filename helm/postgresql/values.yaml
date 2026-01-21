@@ -1,0 +1,17 @@
+image:
+  repository: postgres
+  tag: "16"
+  pullPolicy: IfNotPresent
+
+postgres:
+  db: sonarqube
+  user: sonarqube
+  password: sonarqube
+
+service:
+  port: 5432
+
+persistence:
+  enabled: true
+  size: 8Gi
+  storageClassName: ""
