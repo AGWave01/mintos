@@ -1,4 +1,4 @@
-# Devops Engineer Home Assignment for
+# Devops Engineer Home Assignment for Mintos
 
 ## Sonarqube on Minikube using Terraform and Helm
 
